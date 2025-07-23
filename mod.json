@@ -1,0 +1,51 @@
+{
+	"geode": "4.6.3",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"settings": {
+		"yesString": {
+			"type": "string",
+			"name": "Yes Button String",
+			"default": "Yes"
+		},
+		"noString": {
+			"type": "string",
+			"name": "No Button String",
+			"default": "No"
+		},
+		"quitString": {
+			"type": "string",
+			"name": "Quit Message",
+			"default": "Are you sure you want to quit?"
+		},
+		"restartString": {
+			"type": "string",
+			"name": "Restart Message",
+			"default": "Are you sure you want to restart?"
+		},
+		"editString": {
+			"type": "string",
+			"name": "Edit Message",
+			"default": "Are you sure you want to enter the editor?"
+		},
+		"practiceString": {
+			"type": "string",
+			"name": "Practice Mode Message",
+			"default": "Are you sure you want to enter practice mode?"
+		},
+		"normalString": {
+			"type": "string",
+			"name": "Normal Mode Message",
+			"default": "Are you sure you want to enter normal mode?"
+		}
+	},
+	"id": "marko2155.confirmpausemenu",
+	"name": "ConfirmPauseMenu",
+	"version": "v1.0.0",
+	"developer": "Marko2155",
+	"description": "Gives you a dialog to confirm when pushing buttons on the pause menu, like clicking restart says \"Are you sure you want to restart?\""
+}
