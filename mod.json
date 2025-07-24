@@ -46,6 +46,7 @@
 	"id": "marko2155.confirmpausemenu",
 	"name": "ConfirmPauseMenu",
 	"version": "v1.0.0",
+	"icon": "logo.png",
 	"developer": "Marko2155",
 	"description": "Gives you a dialog to confirm when pushing buttons on the pause menu, like clicking restart says \"Are you sure you want to restart?\""
 }
