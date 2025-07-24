@@ -15,6 +15,7 @@ class $modify(PauseLayer) {
 					if (p1) {
 						m_fields->m_oreomilkshake = true;
 						PauseLayer::onQuit(p0);
+						m_fields->m_oreomilkshake = false;
 					}
 				});
 	}
@@ -25,6 +26,7 @@ class $modify(PauseLayer) {
 					if (p1) {
 						m_fields->m_oreomilkshake = true;
 						PauseLayer::onRestart(p0);
+						m_fields->m_oreomilkshake = false;
 					}
 				});
 	}
@@ -35,6 +37,7 @@ class $modify(PauseLayer) {
 					if (p1) {
 						m_fields->m_oreomilkshake = true;
 						PauseLayer::onPracticeMode(p0);
+						m_fields->m_oreomilkshake = false;
 					}
 				});
 	}
@@ -45,6 +48,7 @@ class $modify(PauseLayer) {
 					if (p1) {
 						m_fields->m_oreomilkshake = true;
 						PauseLayer::onNormalMode(p0);
+						m_fields->m_oreomilkshake = false;
 					}
 				});
 	}
@@ -55,6 +59,7 @@ class $modify(PauseLayer) {
 					if (p1) {
 						m_fields->m_oreomilkshake = true;
 						PauseLayer::onEdit(p0);
+						m_fields->m_oreomilkshake = false;
 					}
 				});
 	}
