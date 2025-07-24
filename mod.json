@@ -45,8 +45,10 @@
 	},
 	"id": "marko2155.confirmpausemenu",
 	"name": "ConfirmPauseMenu",
-	"version": "v1.1",
-	"icon": "logo.png",
+	"version": "v1.1.0",
 	"developer": "Marko2155",
-	"description": "Gives you a dialog to confirm when pushing buttons on the pause menu, like clicking restart says \"Are you sure you want to restart?\""
+	"description": "Gives you a dialog to confirm when pushing buttons on the pause menu, like clicking restart says \"Are you sure you want to restart?\"",
+	"links": {
+		"source": "https://github.com/Marko21553/ConfirmPauseMenu"
+	}
 }
