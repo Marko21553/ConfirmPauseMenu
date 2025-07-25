@@ -7,6 +7,10 @@
 		"ios": "2.2074"
 	},
 	"settings": {
+		"dialogSettings": {
+			"type": "title",
+			"name": "Dialog Settings"
+		},
 		"yesString": {
 			"type": "string",
 			"name": "Yes Button String",
@@ -17,25 +21,59 @@
 			"name": "No Button String",
 			"default": "No"
 		},
+		"confirmDialogString": {
+			"type": "string",
+			"name": "Dialog Title String",
+			"default": "Confirm Dialog"
+		},
+		"dialogContentSettings": {
+			"type": "title",
+			"name": "Dialog Content Settings"
+		},
+		"enableQuit": {
+			"type": "bool",
+			"name": "Enable Quit Dialog",
+			"default": true
+		},
 		"quitString": {
 			"type": "string",
 			"name": "Quit Message",
 			"default": "Are you sure you want to quit?"
+		},
+		"enableRestart": {
+			"type": "bool",
+			"name": "Enable Restart Dialog",
+			"default": true
 		},
 		"restartString": {
 			"type": "string",
 			"name": "Restart Message",
 			"default": "Are you sure you want to restart?"
 		},
+		"enableEdit": {
+			"type": "bool",
+			"name": "Enable Editor Dialog",
+			"default": true
+		},
 		"editString": {
 			"type": "string",
 			"name": "Edit Message",
 			"default": "Are you sure you want to enter the editor?"
 		},
+		"enablePracticeMode": {
+			"type": "bool",
+			"name": "Enable Practice Mode Dialog",
+			"default": true
+		},
 		"practiceString": {
 			"type": "string",
 			"name": "Practice Mode Message",
 			"default": "Are you sure you want to enter practice mode?"
+		},
+		"enableNormalMode": {
+			"type": "bool",
+			"name": "Enable Normal Mode Dialog",
+			"default": true
 		},
 		"normalString": {
 			"type": "string",
@@ -45,7 +83,7 @@
 	},
 	"id": "marko2155.confirmpausemenu",
 	"name": "ConfirmPauseMenu",
-	"version": "v1.2.1",
+	"version": "v1.3.0",
 	"developer": "Marko2155",
 	"description": "Gives you a dialog to confirm when pushing buttons on the pause menu, like clicking restart says \"Are you sure you want to restart?\"",
 	"links": {
